@@ -1,0 +1,108 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 60px;
+  background-color: #03060D;
+  display: flex;
+  align-items: center;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-menu .menu-item {
+  padding: 0 35px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.section-advantages {
+  min-height: 791.5px;
+  height: 100%;
+  background-image: url(/img/advantages/background.jpg);
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages-tittle {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 75px;
+  line-height: 57,28px;
+}
+.advantages-subtittle {
+  color: #999FB9;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+.advantages-button {
+  max-width: 200px;
+  width: 100%;
+  min-height: 50px;
+  height: 100%;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(93.58deg, #27ABCC 0%, #69BED6 100%);
+  border-radius: 5px;
+  border: none;
+}
+.advantages-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 136px;
+}
+.advantages-slider .slider-ticket {
+  position: relative;
+  max-width: 342px;
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  margin: 0 43px;
+  background: linear-gradient(146.2deg, #FFFFFF 0%, #F1F8FF 30.47%, #E1EFFE 100%);
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages-slider .slider-ticket .ticket-img {
+  position: absolute;
+  width: 109px;
+  height: 109px;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.advantages-slider .slider-ticket .ticket-tittle {
+  margin-top: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  color: #000D36;
+}
+.advantages-slider .slider-ticket .ticket-text {
+  padding-top: 15px;
+  color: #000D36;
+  font-size: 16px;
+  line-height: 23px;
+  opacity: 0.8;
+  margin: 0 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
