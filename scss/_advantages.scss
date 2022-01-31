@@ -1,0 +1,84 @@
+/** @format */
+
+.section-advantages {
+  min-height: 791.5px;
+  height: 100%;
+  background-image: url(/img/advantages/background.jpg);
+}
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-title {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 75px;
+    line-height: 57, 28px;
+  }
+  &-subtitle {
+    color: #999fb9;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+  }
+  &-button {
+    max-width: 200px;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+    margin-top: 30px;
+    color: #fff;
+    background: linear-gradient(93.58deg, #27abcc 0%, #69bed6 100%);
+    border-radius: 5px;
+    border: none;
+  }
+  .slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 136px;
+    .ticket {
+      position: relative;
+      max-width: 342px;
+      width: 100%;
+      min-height: 300px;
+      height: 100%;
+      margin: 0 43px;
+      background: linear-gradient(
+        146.2deg,
+        #ffffff 0%,
+        #f1f8ff 30.47%,
+        #e1effe 100%
+      );
+      box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__icon {
+        position: absolute;
+        width: 109px;
+        height: 109px;
+        top: -20%;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      &__title {
+        margin-top: 55px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 29px;
+        color: #000d36;
+      }
+      &__text {
+        padding-top: 15px;
+        color: #000d36;
+        font-size: 16px;
+        line-height: 23px;
+        opacity: 0.8;
+        margin: 0 15px;
+      }
+    }
+  }
+}

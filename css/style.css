@@ -1,3 +1,10 @@
+/** @format */
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -6,19 +13,36 @@
 
 .header {
   min-height: 60px;
-  background-color: #03060D;
+  background-color: #03060d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .header .nav-menu .menu-item {
   padding: 0 35px;
   color: #fff;
@@ -26,6 +50,7 @@
   text-decoration: none;
 }
 
+/** @format */
 .section-advantages {
   min-height: 791.5px;
   height: 100%;
@@ -33,22 +58,32 @@
 }
 
 .advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.advantages-tittle {
+
+.advantages-title {
   color: #fff;
   font-size: 40px;
   margin-top: 75px;
-  line-height: 57,28px;
+  line-height: 57, 28px;
 }
-.advantages-subtittle {
-  color: #999FB9;
+
+.advantages-subtitle {
+  color: #999fb9;
   font-size: 16px;
   line-height: 22px;
   margin-top: 15px;
 }
+
 .advantages-button {
   max-width: 200px;
   width: 100%;
@@ -56,53 +91,73 @@
   height: 100%;
   margin-top: 30px;
   color: #fff;
-  background: linear-gradient(93.58deg, #27ABCC 0%, #69BED6 100%);
+  background: linear-gradient(93.58deg, #27abcc 0%, #69bed6 100%);
   border-radius: 5px;
   border: none;
 }
-.advantages-slider {
+
+.advantages .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 136px;
 }
-.advantages-slider .slider-ticket {
+
+.advantages .slider .ticket {
   position: relative;
   max-width: 342px;
   width: 100%;
   min-height: 300px;
   height: 100%;
   margin: 0 43px;
-  background: linear-gradient(146.2deg, #FFFFFF 0%, #F1F8FF 30.47%, #E1EFFE 100%);
-  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(146.2deg, #ffffff 0%, #f1f8ff 30.47%, #e1effe 100%);
+  -webkit-box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+          box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.advantages-slider .slider-ticket .ticket-img {
+
+.advantages .slider .ticket__icon {
   position: absolute;
   width: 109px;
   height: 109px;
   top: -20%;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
-.advantages-slider .slider-ticket .ticket-tittle {
+
+.advantages .slider .ticket__title {
   margin-top: 55px;
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
-  color: #000D36;
+  color: #000d36;
 }
-.advantages-slider .slider-ticket .ticket-text {
+
+.advantages .slider .ticket__text {
   padding-top: 15px;
-  color: #000D36;
+  color: #000d36;
   font-size: 16px;
   line-height: 23px;
   opacity: 0.8;
   margin: 0 15px;
 }
-
 /*# sourceMappingURL=style.css.map */
