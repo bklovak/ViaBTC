@@ -1,0 +1,78 @@
+/** @format */
+
+.section-whyWe {
+  padding: 120px 0 120px 0;
+}
+.whyWe {
+  display: flex;
+  flex-direction: column;
+  color: #000d36;
+  .main__title {
+    font-size: 40px;
+    line-height: 57px;
+    margin-bottom: 50px;
+  }
+}
+.functions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 201px;
+  padding: 0;
+
+  .title {
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid #53cbca;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      background-image: url(../img/whyWE/emojione-monotone_heavy-check-mark.png);
+      background-repeat: no-repeat;
+    }
+  }
+  .tittle__border_orange {
+    position: relative;
+    border-bottom: 2px solid #fcba0f;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      background-image: url(../img/whyWE/Vector.png);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .func {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .function {
+    max-width: 360px;
+    width: 100%;
+    margin: 30px 0;
+    &__title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 29px;
+      margin-bottom: 10px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 23px;
+      opacity: 0.8;
+    }
+  }
+}

@@ -223,5 +223,261 @@ body {
   background: #f3f7f9;
   -webkit-box-shadow: 0px 10px 20px rgba(208, 208, 208, 0.1);
           box-shadow: 0px 10px 20px rgba(208, 208, 208, 0.1);
+  color: #000d36;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .title {
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.services .subtitle {
+  font-size: 16px;
+  line-height: 23px;
+  padding: 20px 0 50px 0;
+}
+
+.services .tickets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .tickets .ticket {
+  min-height: 410px;
+  height: 100%;
+  max-width: 340px;
+  width: 100%;
+  margin: 0 60px 0 70px;
+}
+
+.services .tickets .ticket__icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.services .tickets .ticket__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000d36;
+  margin-bottom: 15px;
+}
+
+.services .tickets .ticket__list {
+  list-style: circle;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.services .tickets .ticket__list li {
+  padding: 7.5px 0 7.5px 0;
+}
+
+.services .tickets .ticket__list_blueCircle {
+  list-style: url("../img/services/blueCircle.png");
+}
+
+.services .tickets .ticket__list_purpleCircle {
+  list-style: url("../img/services/purplecircle.png");
+}
+
+.services .tickets .ticket__list_orangeCircle {
+  list-style: url("../img/services/orangeCircle.png");
+}
+
+/** @format */
+.section-whyWe {
+  padding: 120px 0 120px 0;
+}
+
+.whyWe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #000d36;
+}
+
+.whyWe .main__title {
+  font-size: 40px;
+  line-height: 57px;
+  margin-bottom: 50px;
+}
+
+.functions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 201px;
+  padding: 0;
+}
+
+.functions .title {
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 2px solid #53cbca;
+}
+
+.functions .title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/whyWE/emojione-monotone_heavy-check-mark.png);
+  background-repeat: no-repeat;
+}
+
+.functions .tittle__border_orange {
+  position: relative;
+  border-bottom: 2px solid #fcba0f;
+}
+
+.functions .tittle__border_orange::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/whyWE/Vector.png);
+  background-repeat: no-repeat;
+}
+
+.functions .func {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.functions .function {
+  max-width: 360px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.functions .function__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.functions .function__text {
+  font-size: 16px;
+  line-height: 23px;
+  opacity: 0.8;
+}
+
+/** @format */
+.section-form {
+  min-height: 685px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/form/Group.jpeg);
+}
+
+.content {
+  padding: 120px 0 213px 0;
+}
+
+.content .title {
+  font-size: 40px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/** @format */
+.section-contact {
+  background: #282936;
+  min-height: 150px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding-top: 64px;
+}
+
+.contact .mail {
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact .addres {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/** @format */
+.section-map {
+  min-height: 550px;
+  height: 100%;
+}
+
+/** @format */
+.footer {
+  min-height: 280px;
+  height: 100%;
+  background-color: #282936;
 }
 /*# sourceMappingURL=style.css.map */
