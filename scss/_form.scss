@@ -41,9 +41,13 @@
       border-radius: 5px;
       border: none;
       margin: 5px 0 10px 0;
-      font-size: 14px;
-      line-height: 20px;
-      color: #a7acbd;
+
+      &::placeholder {
+        padding: 15px 0 0 15px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #a7acbd;
+      }
     }
     select {
       width: 350px;
@@ -58,6 +62,9 @@
       font-size: 14px;
       line-height: 20px;
       color: #a7acbd;
+      &::placeholder {
+        padding: 0 0 0 15px;
+      }
       &::-ms-expand {
         display: none;
       }
@@ -78,6 +85,7 @@
         font-size: 14px;
         line-height: 20px;
         color: #a7acbd;
+        padding: 15px 0 0 15px;
       }
     }
     .li-flex {

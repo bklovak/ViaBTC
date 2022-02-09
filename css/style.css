@@ -474,6 +474,31 @@ body {
   border-radius: 5px;
   border: none;
   margin: 5px 0 10px 0;
+}
+
+.form ul input::-webkit-input-placeholder {
+  padding: 15px 0 0 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a7acbd;
+}
+
+.form ul input:-ms-input-placeholder {
+  padding: 15px 0 0 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a7acbd;
+}
+
+.form ul input::-ms-input-placeholder {
+  padding: 15px 0 0 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a7acbd;
+}
+
+.form ul input::placeholder {
+  padding: 15px 0 0 15px;
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
@@ -491,6 +516,22 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
+}
+
+.form ul select::-webkit-input-placeholder {
+  padding: 0 0 0 15px;
+}
+
+.form ul select:-ms-input-placeholder {
+  padding: 0 0 0 15px;
+}
+
+.form ul select::-ms-input-placeholder {
+  padding: 0 0 0 15px;
+}
+
+.form ul select::placeholder {
+  padding: 0 0 0 15px;
 }
 
 .form ul select::-ms-expand {
@@ -516,24 +557,28 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
+  padding: 15px 0 0 15px;
 }
 
 .form ul textarea:-ms-input-placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
+  padding: 15px 0 0 15px;
 }
 
 .form ul textarea::-ms-input-placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
+  padding: 15px 0 0 15px;
 }
 
 .form ul textarea::placeholder {
   font-size: 14px;
   line-height: 20px;
   color: #a7acbd;
+  padding: 15px 0 0 15px;
 }
 
 .form ul .li-flex {
