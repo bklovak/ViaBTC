@@ -4,4 +4,51 @@
   min-height: 280px;
   height: 100%;
   background-color: #282936;
+  padding-top: 50px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .block {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    width: 100%;
+    .footer__icon {
+      width: 167px;
+      height: 48px;
+      margin-bottom: 15px;
+    }
+    .img {
+      width: 116px;
+      height: 20px;
+      margin-bottom: 18px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 23px;
+      color: #999fb9;
+      margin-bottom: 53px;
+    }
+    .text__copyright {
+      font-size: 16px;
+      line-height: 23px;
+      color: #999fb9;
+      opacity: 0.6;
+    }
+    .footer__menu {
+      font-size: 14px;
+      line-height: 100%;
+      color: #999fb9;
+      text-decoration: none;
+      padding: 6px 0;
+    }
+    .footer__contact {
+      font-size: 16px;
+      line-height: 23px;
+      color: #ffffff;
+      padding-bottom: 15px;
+    }
+  }
 }

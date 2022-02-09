@@ -44,20 +44,29 @@
         margin-bottom: 15px;
       }
       &__list {
-        list-style: circle;
+        list-style: disc;
         font-size: 16px;
         line-height: 23px;
         li {
           padding: 7.5px 0 7.5px 0;
         }
-        &_blueCircle {
-          list-style: url("../img/services/blueCircle.png");
+        .marker__blueCircle {
+          &::marker {
+            color: #91c5ff;
+            font-size: 1.2em;
+          }
         }
-        &_purpleCircle {
-          list-style: url("../img/services/purplecircle.png");
+        .marker__purpleCircle {
+          &::marker {
+            color: #e2beff;
+            font-size: 1.2em;
+          }
         }
-        &_orangeCircle {
-          list-style: url("../img/services/orangeCircle.png");
+        .marker__orangeCircle {
+          &::marker {
+            color: #ffd6b2;
+            font-size: 1.2em;
+          }
         }
       }
     }

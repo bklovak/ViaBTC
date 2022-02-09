@@ -122,16 +122,18 @@
                 class="ticket__icon"
               />
               <div class="ticket__title">Управление процессом</div>
-              <ul class="ticket__list ticket__list_blueCircle">
-                <li>Просмотр выручки в один клик</li>
-                <li>
+              <ul class="ticket__list">
+                <li class="marker__blueCircle">Просмотр выручки в один клик</li>
+                <li class="marker__blueCircle">
                   Постоянное предоставление информации о хэшрейте в реальном
                   времени
                 </li>
-                <li>
+                <li class="marker__blueCircle">
                   Круглосуточное предоставление информации о статусе майнеров
                 </li>
-                <li>Поддерживается регистрация нескольких аккаунтов</li>
+                <li class="marker__blueCircle">
+                  Поддерживается регистрация нескольких аккаунтов
+                </li>
               </ul>
             </div>
             <div class="ticket">
@@ -141,12 +143,14 @@
                 class="ticket__icon"
               />
               <div class="ticket__title">Управление активами</div>
-              <ul class="ticket__list ticket__list_purpleCircle">
-                <li>
+              <ul class="ticket__list">
+                <li class="marker__purpleCircle">
                   Мультивалютный кошелёк, поддержка внесения и перевода средств
                 </li>
-                <li>Покупка-продажа криптовалюты, авто-конверсия</li>
-                <li>Выплаты без комиссий</li>
+                <li class="marker__purpleCircle">
+                  Покупка-продажа криптовалюты, авто-конверсия
+                </li>
+                <li class="marker__purpleCircle">Выплаты без комиссий</li>
               </ul>
             </div>
             <div class="ticket">
@@ -156,13 +160,15 @@
                 class="ticket__icon"
               />
               <div class="ticket__title">Смарт-инструменты</div>
-              <ul class="ticket__list ticket__list_orangeCircle">
-                <li>Акселератор транзакций — не теряйте времени в ожидании</li>
-                <li>
+              <ul class="ticket__list">
+                <li class="marker__orangeCircle">
+                  Акселератор транзакций — не теряйте времени в ожидании
+                </li>
+                <li class="marker__orangeCircle">
                   Рассчитайте Ваш текущий доход в один клик с помощью
                   калькулятора прибыли
                 </li>
-                <li>
+                <li class="marker__orangeCircle">
                   Быстрый доступ к первоклассным дата центрам по всему миру
                 </li>
               </ul>
@@ -299,10 +305,64 @@
       <div class="container">
         <div class="content">
           <div class="title">Специальные условия для крупных майнеров</div>
-          <form action="#" class="form"></form>
+          <form action="#" class="form">
+            <ul class="left__side">
+              <li>
+                <label for="Name">Имя</label>
+                <input
+                  type="text"
+                  class="user_name"
+                  id="name"
+                  value="Иван Иванович"
+                />
+              </li>
+              <li>
+                <label for="mail">Почта</label>
+                <input
+                  type="email"
+                  class="user_mail"
+                  id="mail"
+                  value="ivan@gmail.com"
+                />
+              </li>
+              <li>
+                <label for="messenger">Мессенджер</label>
+                <select
+                  name="messenger"
+                  id="messenger"
+                  class="select__messenger"
+                  value="Иван Иванович"
+                >
+                  <option value="native">Выберете мессенджер для связи</option>
+                  <option value="telegram">Telegram</option>
+                  <option value="Viber">Viber</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="right__side">
+              <li>
+                <label for="msg">Коментарий</label>
+                <textarea
+                  name="msg"
+                  id="user_message"
+                  placeholder="Напишите ваш комментарий"
+                ></textarea>
+              </li>
+              <li class="li-flex">
+                <input type="checkbox" class="user_checkbox" id="checkbox" />
+                <label for="checkbox" class="checkbox">
+                  Я даю согласие на обработку своих персональных данных</label
+                >
+              </li>
+              <li>
+                <button type="submit">Оставить заявку</button>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
     </section>
+
     <section class="section-contact">
       <div class="container">
         <div class="contact">
@@ -324,7 +384,34 @@
     </section>
 
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <div class="footer__content">
+          <div class="block">
+            <img
+              src="./img/header/logo.png"
+              alt="ViaBTC"
+              class="footer__icon"
+            />
+            <img src="./img/footer/Frame.png" alt="" class="img" />
+            <span class="text">Сделаем мир лучше через Биткоин.</span>
+            <span class="text__copyright">Copyright © 2021 Interhash</span>
+          </div>
+          <div class="block">
+            <a href="#" class="footer__menu">О нас</a
+            ><a href="#" class="footer__menu">Контакты</a
+            ><a href="#" class="footer__menu">Услуги</a
+            ><a href="#" class="footer__menu">Почему ViaBTC</a>
+          </div>
+          <div class="block">
+            <div class="footer__contact">
+              Победителей 103, офис 914 Минск, Беларусь
+            </div>
+            <a href="mailto:info@interhash.by" class="footer__contact"
+              >info@interhash.by</a
+            >
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -16,3 +16,104 @@
     margin-bottom: 50px;
   }
 }
+.form {
+  max-width: 730px;
+  width: 100%;
+  min-height: 254px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+
+  ul {
+    max-width: 350px;
+    width: 100%;
+    li {
+      display: flex;
+      flex-direction: column;
+    }
+    input {
+      width: 350px;
+      height: 50px;
+      background: #f1f2f8;
+      border-radius: 5px;
+      border: none;
+      margin: 5px 0 10px 0;
+      font-size: 14px;
+      line-height: 20px;
+      color: #a7acbd;
+    }
+    select {
+      width: 350px;
+      height: 50px;
+      background: #f1f2f8;
+      border-radius: 5px;
+      border: none;
+      margin: 5px 0 10px;
+      padding: 0 15px;
+      margin: 5px 0 10px 0;
+
+      font-size: 14px;
+      line-height: 20px;
+      color: #a7acbd;
+      &::-ms-expand {
+        display: none;
+      }
+      option {
+        font-size: 14px;
+        line-height: 20px;
+        color: #a7acbd;
+      }
+    }
+    textarea {
+      width: 350px;
+      height: 138px;
+      border-radius: 5px;
+      border: none;
+      background: #f1f2f8;
+      margin: 5px 0 10px 0;
+      &::placeholder {
+        font-size: 14px;
+        line-height: 20px;
+        color: #a7acbd;
+      }
+    }
+    .li-flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .user_checkbox {
+      margin-right: 6px;
+    }
+    button {
+      width: 350px;
+      height: 50px;
+      border: none;
+      border-radius: 5px;
+      background: #000d36;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .right__side {
+    margin-left: 15px;
+    input {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .checkbox {
+      font-size: 11px;
+      line-height: 130%;
+    }
+  }
+  .left__side {
+    margin-right: 15px;
+  }
+}
