@@ -1,0 +1,429 @@
+/** @format */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header {
+    .nav {
+      min-width: 300px;
+      width: 95%;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 12px 0 12px 15px;
+      .img {
+        width: 128px;
+      }
+      .nav-menu {
+        flex-direction: column;
+        //   display: none;
+      }
+    }
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .advantages-button {
+      max-width: 290px;
+      width: 100%;
+      height: 50px;
+    }
+    .slider {
+      position: relative;
+      max-width: 320px;
+      justify-content: center;
+      // overflow: hidden;
+      .ticket {
+        min-width: 290px;
+        margin: 0;
+        position: absolute;
+      }
+    }
+  }
+  .section-about {
+    padding: 50px 0 50px 0;
+
+    .about {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      .img {
+        width: 290px;
+      }
+      .about__left {
+        max-width: 290px;
+        padding: 0;
+        margin-bottom: 30px;
+        .title {
+          font-size: 30px;
+          line-height: 115%;
+        }
+        .text {
+          font-size: 15px;
+          line-height: 150%;
+          margin: 20px 0;
+        }
+      }
+      .about__right {
+        max-width: 290px;
+        padding: 0;
+        .text {
+          font-size: 15px;
+          line-height: 150%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .section-services {
+    padding: 50px 0;
+
+    .services {
+      align-items: flex-start;
+      .title {
+        font-size: 30px;
+        line-height: 120%;
+        margin-left: 15px;
+      }
+      .subtitle {
+        margin-left: 15px;
+        font-size: 15px;
+        line-height: 21px;
+      }
+      .tickets {
+        flex-wrap: wrap;
+        .ticket {
+          min-width: 290px;
+
+          margin: 15px 0 15px 20px;
+          min-height: 264px;
+          &__header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .ticket__icon {
+              margin-right: 15px;
+              width: 60px;
+              height: 60px;
+            }
+            .ticket__title {
+              font-size: 20px;
+              line-height: 120%;
+            }
+          }
+
+          li {
+            font-size: 15px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-whyWe {
+    padding: 50px 0;
+    .whyWe {
+      padding: 0 10px 0 15px;
+      .main__title {
+        font-size: 30px;
+        line-height: 43px;
+      }
+      .functions {
+        .title {
+          font-size: 25px;
+          line-height: 36px;
+        }
+        .function__title {
+          font-size: 20px;
+          line-height: 29px;
+        }
+        .function__text {
+          font-size: 15px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+
+  .section-form {
+    .content {
+      padding: 50px 0;
+      .title {
+        font-size: 30px;
+        line-height: 120%;
+        margin: 0 15px 30px 15px;
+      }
+    }
+    .form {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      ul {
+        width: 90%;
+      }
+      .left__side {
+        margin: 0;
+        input {
+          width: 290px;
+        }
+        select {
+          width: 290px;
+        }
+      }
+      .right__side {
+        margin: 0;
+        textarea {
+          width: 290px;
+        }
+        button {
+          width: 290px;
+        }
+      }
+    }
+  }
+}
+
+.section-contact {
+  .contact {
+    flex-direction: column;
+    padding-top: 30px;
+    .mail {
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 21px;
+    }
+    .addres {
+      width: 50%;
+      font-size: 15px;
+      line-height: 21px;
+      text-align: center;
+    }
+  }
+}
+
+.footer {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .block {
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .header {
+    .nav {
+      min-width: 300px;
+      width: 95%;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 12px 0 12px 15px;
+      .img {
+        width: 128px;
+      }
+      .nav-menu {
+        flex-direction: column;
+        //   display: none;
+      }
+    }
+  }
+
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .advantages-button {
+      max-width: 290px;
+      width: 100%;
+      height: 50px;
+    }
+    .slider {
+      position: relative;
+      max-width: 320px;
+      justify-content: center;
+      // overflow: hidden;
+      .ticket {
+        min-width: 290px;
+        margin: 0;
+        position: absolute;
+      }
+    }
+  }
+  .section-about {
+    padding: 50px 0 50px 0;
+
+    .about {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      .img {
+        width: 290px;
+      }
+      .about__left {
+        max-width: 290px;
+        padding: 0;
+        margin-bottom: 30px;
+        .title {
+          font-size: 30px;
+          line-height: 115%;
+        }
+        .text {
+          font-size: 15px;
+          line-height: 150%;
+          margin: 20px 0;
+        }
+      }
+      .about__right {
+        max-width: 290px;
+        padding: 0;
+        .text {
+          font-size: 15px;
+          line-height: 150%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .section-services {
+    padding: 50px 0;
+
+    .services {
+      align-items: flex-start;
+      .title {
+        font-size: 30px;
+        line-height: 120%;
+        margin-left: 15px;
+      }
+      .subtitle {
+        margin-left: 15px;
+        font-size: 15px;
+        line-height: 21px;
+      }
+      .tickets {
+        flex-wrap: wrap;
+        .ticket {
+          min-width: 290px;
+
+          margin: 15px 0 15px 20px;
+          min-height: 264px;
+          &__header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .ticket__icon {
+              margin-right: 15px;
+              width: 60px;
+              height: 60px;
+            }
+            .ticket__title {
+              font-size: 20px;
+              line-height: 120%;
+            }
+          }
+
+          li {
+            font-size: 15px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-whyWe {
+    padding: 50px 0;
+    .whyWe {
+      padding: 0 10px 0 15px;
+      .main__title {
+        font-size: 30px;
+        line-height: 43px;
+      }
+      .functions {
+        .title {
+          font-size: 25px;
+          line-height: 36px;
+        }
+        .function__title {
+          font-size: 20px;
+          line-height: 29px;
+        }
+        .function__text {
+          font-size: 15px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+
+  .section-form {
+    .content {
+      padding: 50px 0;
+      .title {
+        font-size: 30px;
+        line-height: 120%;
+        margin: 0 15px 30px 15px;
+      }
+    }
+    .form {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      ul {
+        width: 90%;
+      }
+      .left__side {
+        margin: 0;
+        input {
+          width: 290px;
+        }
+        select {
+          width: 290px;
+        }
+      }
+      .right__side {
+        margin: 0;
+        textarea {
+          width: 290px;
+        }
+        button {
+          width: 290px;
+        }
+      }
+    }
+  }
+}
+
+.section-contact {
+  .contact {
+    flex-direction: column;
+    padding-top: 30px;
+    .mail {
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 21px;
+    }
+    .addres {
+      width: 50%;
+      font-size: 15px;
+      line-height: 21px;
+      text-align: center;
+    }
+  }
+}
+
+.footer {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .block {
+      align-items: center;
+    }
+  }
+}

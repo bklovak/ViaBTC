@@ -30,6 +30,9 @@
       max-width: 340px;
       width: 100%;
       margin: 0 60px 0 70px;
+      display: flex;
+      flex-direction: column;
+
       &__icon {
         // align-self: flex-start;
         width: 90px;
@@ -48,24 +51,24 @@
         font-size: 16px;
         line-height: 23px;
         li {
-          padding: 7.5px 0 7.5px 0;
+          padding: 7.5px 0;
         }
         .marker__blueCircle {
           &::marker {
             color: #91c5ff;
-            font-size: 1.2em;
+            font-size: 100%;
           }
         }
         .marker__purpleCircle {
           &::marker {
             color: #e2beff;
-            font-size: 1.2em;
+            font-size: 100%;
           }
         }
         .marker__orangeCircle {
           &::marker {
             color: #ffd6b2;
-            font-size: 1.2em;
+            font-size: 100%;
           }
         }
       }

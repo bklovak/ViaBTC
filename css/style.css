@@ -272,6 +272,13 @@ body {
   max-width: 340px;
   width: 100%;
   margin: 0 60px 0 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .services .tickets .ticket__icon {
@@ -295,22 +302,22 @@ body {
 }
 
 .services .tickets .ticket__list li {
-  padding: 7.5px 0 7.5px 0;
+  padding: 7.5px 0;
 }
 
 .services .tickets .ticket__list .marker__blueCircle::marker {
   color: #91c5ff;
-  font-size: 1.2em;
+  font-size: 100%;
 }
 
 .services .tickets .ticket__list .marker__purpleCircle::marker {
   color: #e2beff;
-  font-size: 1.2em;
+  font-size: 100%;
 }
 
 .services .tickets .ticket__list .marker__orangeCircle::marker {
   color: #ffd6b2;
-  font-size: 1.2em;
+  font-size: 100%;
 }
 
 /** @format */
@@ -743,5 +750,494 @@ body {
   line-height: 23px;
   color: #ffffff;
   padding-bottom: 15px;
+}
+
+/** @format */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header .nav {
+    min-width: 300px;
+    width: 95%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    padding: 12px 0 12px 15px;
+  }
+  .header .nav .img {
+    width: 128px;
+  }
+  .header .nav .nav-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .advantages .advantages-button {
+    max-width: 290px;
+    width: 100%;
+    height: 50px;
+  }
+  .advantages .slider {
+    position: relative;
+    max-width: 320px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages .slider .ticket {
+    min-width: 290px;
+    margin: 0;
+    position: absolute;
+  }
+  .section-about {
+    padding: 50px 0 50px 0;
+  }
+  .section-about .about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-about .about .img {
+    width: 290px;
+  }
+  .section-about .about .about__left {
+    max-width: 290px;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .section-about .about .about__left .title {
+    font-size: 30px;
+    line-height: 115%;
+  }
+  .section-about .about .about__left .text {
+    font-size: 15px;
+    line-height: 150%;
+    margin: 20px 0;
+  }
+  .section-about .about .about__right {
+    max-width: 290px;
+    padding: 0;
+  }
+  .section-about .about .about__right .text {
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 30px;
+  }
+  .section-services {
+    padding: 50px 0;
+  }
+  .section-services .services {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section-services .services .title {
+    font-size: 30px;
+    line-height: 120%;
+    margin-left: 15px;
+  }
+  .section-services .services .subtitle {
+    margin-left: 15px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-services .services .tickets {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-services .services .tickets .ticket {
+    min-width: 290px;
+    margin: 15px 0 15px 20px;
+    min-height: 264px;
+  }
+  .section-services .services .tickets .ticket__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-services .services .tickets .ticket__header .ticket__icon {
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+  }
+  .section-services .services .tickets .ticket__header .ticket__title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .section-services .services .tickets .ticket li {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-whyWe {
+    padding: 50px 0;
+  }
+  .section-whyWe .whyWe {
+    padding: 0 10px 0 15px;
+  }
+  .section-whyWe .whyWe .main__title {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .section-whyWe .whyWe .functions .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .section-whyWe .whyWe .functions .function__title {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .section-whyWe .whyWe .functions .function__text {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-form .content {
+    padding: 50px 0;
+  }
+  .section-form .content .title {
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0 15px 30px 15px;
+  }
+  .section-form .form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-form .form ul {
+    width: 90%;
+  }
+  .section-form .form .left__side {
+    margin: 0;
+  }
+  .section-form .form .left__side input {
+    width: 290px;
+  }
+  .section-form .form .left__side select {
+    width: 290px;
+  }
+  .section-form .form .right__side {
+    margin: 0;
+  }
+  .section-form .form .right__side textarea {
+    width: 290px;
+  }
+  .section-form .form .right__side button {
+    width: 290px;
+  }
+}
+
+.section-contact .contact {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px;
+}
+
+.section-contact .contact .mail {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.section-contact .contact .addres {
+  width: 50%;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer .footer__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer .footer__content .block {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .header .nav {
+    min-width: 300px;
+    width: 95%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    padding: 12px 0 12px 15px;
+  }
+  .header .nav .img {
+    width: 128px;
+  }
+  .header .nav .nav-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .advantages .advantages-button {
+    max-width: 290px;
+    width: 100%;
+    height: 50px;
+  }
+  .advantages .slider {
+    position: relative;
+    max-width: 320px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages .slider .ticket {
+    min-width: 290px;
+    margin: 0;
+    position: absolute;
+  }
+  .section-about {
+    padding: 50px 0 50px 0;
+  }
+  .section-about .about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-about .about .img {
+    width: 290px;
+  }
+  .section-about .about .about__left {
+    max-width: 290px;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .section-about .about .about__left .title {
+    font-size: 30px;
+    line-height: 115%;
+  }
+  .section-about .about .about__left .text {
+    font-size: 15px;
+    line-height: 150%;
+    margin: 20px 0;
+  }
+  .section-about .about .about__right {
+    max-width: 290px;
+    padding: 0;
+  }
+  .section-about .about .about__right .text {
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 30px;
+  }
+  .section-services {
+    padding: 50px 0;
+  }
+  .section-services .services {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section-services .services .title {
+    font-size: 30px;
+    line-height: 120%;
+    margin-left: 15px;
+  }
+  .section-services .services .subtitle {
+    margin-left: 15px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-services .services .tickets {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-services .services .tickets .ticket {
+    min-width: 290px;
+    margin: 15px 0 15px 20px;
+    min-height: 264px;
+  }
+  .section-services .services .tickets .ticket__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-services .services .tickets .ticket__header .ticket__icon {
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+  }
+  .section-services .services .tickets .ticket__header .ticket__title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .section-services .services .tickets .ticket li {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-whyWe {
+    padding: 50px 0;
+  }
+  .section-whyWe .whyWe {
+    padding: 0 10px 0 15px;
+  }
+  .section-whyWe .whyWe .main__title {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .section-whyWe .whyWe .functions .title {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .section-whyWe .whyWe .functions .function__title {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .section-whyWe .whyWe .functions .function__text {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .section-form .content {
+    padding: 50px 0;
+  }
+  .section-form .content .title {
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0 15px 30px 15px;
+  }
+  .section-form .form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-form .form ul {
+    width: 90%;
+  }
+  .section-form .form .left__side {
+    margin: 0;
+  }
+  .section-form .form .left__side input {
+    width: 290px;
+  }
+  .section-form .form .left__side select {
+    width: 290px;
+  }
+  .section-form .form .right__side {
+    margin: 0;
+  }
+  .section-form .form .right__side textarea {
+    width: 290px;
+  }
+  .section-form .form .right__side button {
+    width: 290px;
+  }
+}
+
+.section-contact .contact {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px;
+}
+
+.section-contact .contact .mail {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.section-contact .contact .addres {
+  width: 50%;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer .footer__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer .footer__content .block {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
